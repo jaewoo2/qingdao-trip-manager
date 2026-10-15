@@ -1,0 +1,16 @@
+export const restaurantIllustrations: Record<string, { src: string; dish: string; more?: Array<{ src: string; dish: string }> }> = {
+  chunhelou: { src: '/restaurant-illustrations/chunhelou_crispy_chicken.webp', dish: '바삭한 닭요리' },
+  jiulong: { src: '/restaurant-illustrations/jiulong_spicy_squid.webp', dish: '매콤한 오징어요리' },
+  chuange: { src: '/restaurant-illustrations/chuange_fish_dumplings.webp', dish: '4색 해산물 만두' },
+  kaihai: { src: '/restaurant-illustrations/kaihai_shrimp_dumplings.webp', dish: '새우 만두' },
+  qianhaiyan: { src: '/restaurant-illustrations/qianhaiyan_seafood_meal.webp', dish: '해산물 가정식 상차림' },
+  wanhechun: { src: '/restaurant-illustrations/wanhechun_braised_ribs.webp', dish: '갈비 뚝배기와 밥' },
+  luyu: { src: '/restaurant-illustrations/luyu_grilled_fish.webp', dish: '카오위 생선구이 전골' },
+  pingjie: { src: '/restaurant-illustrations/pingjie_chongqing_hotpot.webp', dish: '충칭식 훠궈' },
+  haidilao: { src: '/restaurant-illustrations/haidilao_four_broth_hotpot.webp', dish: '4칸 훠궈' },
+  mingjia: { src: '/restaurant-illustrations/mingjia.webp', dish: '홍미창펀·커스터드번' },
+  forest: { src: '/restaurant-illustrations/senlin_crab_noodles.webp', dish: '꽃게 도삭면', more: [{ src: '/restaurant-illustrations/senlin.webp', dish: '게살·게황 소스와 밥' }] },
+  muye: { src: '/restaurant-illustrations/muyeshige.webp', dish: '숯불 양꼬치' },
+  meidaer: { src: '/restaurant-illustrations/meidaer.webp', dish: '가지튀김' },
+  coucou: { src: '/restaurant-illustrations/coucou_taiwan_hotpot.webp', dish: '대만식 훠궈와 밀크티' },
+};
